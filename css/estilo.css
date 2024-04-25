@@ -1,0 +1,183 @@
+/*cabeçalho*/
+header img {
+  height: 130px;
+  width: 220px;
+}
+
+/*Conteudo principal*/
+main {
+  min-height: 500px;
+}
+
+/*banner*/
+#section-banners img {
+  height: 550px;
+  width: 2000px;
+}
+
+
+/*Produtos vendidos*/
+
+
+#section-vendidos {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+
+#section-vendidos h2 {
+
+  text-align: center;
+  font-weight: bold;
+  padding: 50px;
+
+}
+
+#section-vendidos img {
+  height: 250px;
+  border-radius: 20px;
+}
+
+#section-vendidos .card {
+
+  margin: 5px;
+  border: 4px solid#000000;
+  border-radius: 23px;
+
+
+}
+
+#section-vendidos .Preço {
+  color: rgb(16, 103, 8);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#section-vendidos .Preçodesc {
+  color: rgb(255, 0, 0);
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+
+.btn-primary {
+
+  border-radius: 100px;
+  font-weight: bold;
+  background-color: green;
+
+
+}
+
+
+/*Rodapé*/
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.rodape-title {
+  text-align: left;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: -70px;
+  color: white;
+}
+
+.rodape-text {
+
+  text-align: left;
+  margin-bottom: -1px;
+  padding: 1pt;
+  margin-left: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+footer img {
+
+  height: 15px;
+  width: 15px;
+  margin-left: 500px;
+
+
+}
+
+#section-media .cards {
+
+  padding: auto;
+  margin-left: 700px;
+  color: aliceblue;
+}
+
+/*Container*/
+
+.container {
+  min-width: 1520px;
+  min-height: max-content;
+  background-color: rgb(194, 229, 241);
+
+
+}
+
+
+.margin-container {
+  width: 1508px;
+  background-color: rgb(0, 88, 102);
+
+}
+
+/*Botão Voltar topo*/
+#voltar-topo {
+
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  position: fixed;
+  font-weight: bold;
+  bottom: 10px;
+  right: 30px;
+  border-color: rgb(0, 0, 0);
+}
+
+/* página de login  */
+
+#section-login {
+  margin-top: 100p;
+}
+
+#section-login h1 {
+  text-align: center;
+
+}
+
+#section-login input {
+  width: 100%;
+}
+
+#section-login {
+  color: black;
+
+
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(194, 229, 241);
+
+}
+
+#form-cadastrar {
+  padding: 50px;
+  display: none;
+}
