@@ -6,13 +6,15 @@ header img {
 
 /*Conteudo principal*/
 main {
-  min-height: 500px;
+  min-height: auto;
+
+
 }
 
 /*banner*/
 #section-banners img {
-  height: 550px;
-  width: 2000px;
+  max-height: 550px;
+  width: auto;
 }
 
 
@@ -23,6 +25,7 @@ main {
   text-align: center;
   margin-bottom: 10px;
   padding: 40px;
+  width: auto;
 }
 
 #section-vendidos h2 {
@@ -36,6 +39,7 @@ main {
 #section-vendidos img {
   height: 250px;
   border-radius: 20px;
+  width: auto;
 }
 
 #section-vendidos .card {
@@ -43,6 +47,7 @@ main {
   margin: 5px;
   border: 4px solid#000000;
   border-radius: 23px;
+  min-width: 200px;
 
 
 }
@@ -105,23 +110,23 @@ footer img {
 
   height: 15px;
   width: 15px;
-  margin-left: 500px;
+  margin-left:auto;
 
 
 }
 
 #section-media .cards {
-
+  min-width: auto;
   padding: auto;
-  margin-left: 700px;
+  margin-left:70%;
   color: aliceblue;
 }
 
 /*Container*/
 
 .container {
-  min-width: 1520px;
-  min-height: max-content;
+  min-width: auto;
+  min-height: auto;
   background-color: rgb(194, 229, 241);
 
 
@@ -129,7 +134,7 @@ footer img {
 
 
 .margin-container {
-  width: 1508px;
+
   background-color: rgb(0, 88, 102);
 
 }
@@ -137,20 +142,20 @@ footer img {
 /*Botão Voltar topo*/
 #voltar-topo {
 
-  font-size: 15px;
+  font-size: 10px;
   color: rgb(0, 0, 0);
   font-weight: lighter;
   position: fixed;
   font-weight: bold;
-  bottom: 10px;
-  right: 30px;
+  bottom: 115px;
+  right: 86%;
   border-color: rgb(0, 0, 0);
 }
 
 /* página de login  */
 
 #section-login {
-  margin-top: 100p;
+  margin-top: 60px;
 }
 
 #section-login h1 {
